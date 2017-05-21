@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+_pages:
+- index
+- bus
+- temperature
+- flower pot
+- software
