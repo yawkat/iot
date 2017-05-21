@@ -25,6 +25,10 @@ You can be pretty forceful here (except when removing insulation or you'll cut t
 
 Make sure that the conductors are in the same order on the other side (if the red wire was right on the first plug, it has to be right on the second plug as well).
 
+### Debugging
+
+A multimeter (such as [this one](https://www.amazon.de/gp/product/B00F8ZMNWA), needs a 9V battery) is very useful for debugging. You can check if your wires are properly crimped and you can see if you get the voltage you expect through the bus. I also bought a logic analyzer but it's only rarely useful for the simple setup I have right now.
+
 ### Wire layout
 
 My sensors are 1wire and i2c and I use a modified [arw/tempsens](https://gitlab.cs.fau.de/arw/tempsens) layout:
